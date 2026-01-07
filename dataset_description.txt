@@ -1,0 +1,32 @@
+Breast Cancer Wisconsin (Diagnostic)
+repository_url: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic, 
+data_url: https://archive.ics.uci.edu/static/public/17/data.csv, abstract: Diagnostic Wisconsin Breast Cancer Database., 
+area: Health and Medicine, 
+tasks: [Classification],
+characteristics: [Multivariate], 
+num_instances: 569, 
+num_features: 30, 
+has_missing_values: no, 
+year_of_dataset_creation: 1993, last_updated: Fri Nov 03 2023, 
+dataset_doi: 10.24432/C5DW2B, creators: [William Wolberg, Olvi Mangasarian, Nick Street, W. Street], 
+intro_paper: {ID: 230, type: NATIVE, title: Nuclear feature extraction for breast tumor diagnosis, authors: W. Street, W. Wolberg, O. Mangasarian, venue: Electronic imaging, year: 1993, journal: None, DOI: 10.1117/12.148698, URL: https://www.semanticscholar.org/paper/53f0fbb425bc14468eb3bf96b2e1d41ba8087f36, 
+
+summary: Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.  They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/
+
+
+The following features were calculated for each cell in the image:
+
+Radius: Mean distance from the center to points on the perimeter
+Texture: Standard deviation of gray-scale values
+Perimeter
+Area
+Smoothness: Local variation in radius lengths
+Compactness: (perimeter2/area)−1.0(\text{perimeter}^2 / \text{area}) - 1.0(perimeter2/area)−1.0
+Concavity: Severity of concave portions of the contour
+Concave points: Number of concave portions of the contour
+Symmetry
+Fractal dimension: “Coastline approximation” minus 1
+
+The dataset contains features derived from these measurements. For each feature, the mean value across all cells, the standard error (standard deviation), and the worst case were computed and reported in the data.
+
+The target feature is diagnosis (0 = malignant, 1 = benign)
