@@ -1,0 +1,82 @@
+{
+  "selected_model": "knn_k5",
+  "selection_metric": "f1_score",
+  "test_set_performance": {
+    "test_score": 0.9219858156028369,
+    "train_score": 0.9381443298969072,
+    "overfitting": 0.016158514294070336
+  },
+  "cross_validation_performance": {
+    "cv_mean": 0.9203531647549312,
+    "cv_std": 0.02158098555229077
+  },
+  "all_models_comparison": {
+    "train_test": {
+      "knn_k3": {
+        "test_score": 0.9154929577464789,
+        "train_score": 0.9568221070811744,
+        "overfitting": 0.04132914933469556
+      },
+      "knn_k5": {
+        "test_score": 0.9219858156028369,
+        "train_score": 0.9381443298969072,
+        "overfitting": 0.016158514294070336
+      },
+      "knn_k7": {
+        "test_score": 0.896551724137931,
+        "train_score": 0.934931506849315,
+        "overfitting": 0.03837978271138398
+      },
+      "knn_k9": {
+        "test_score": 0.9154929577464789,
+        "train_score": 0.9322033898305084,
+        "overfitting": 0.01671043208402956
+      },
+      "knn_k11": {
+        "test_score": 0.9295774647887324,
+        "train_score": 0.9324324324324325,
+        "overfitting": 0.0028549676437000793
+      },
+      "knn_k13": {
+        "test_score": 0.9230769230769231,
+        "train_score": 0.9288135593220339,
+        "overfitting": 0.005736636245110782
+      },
+      "knn_k15": {
+        "test_score": 0.9154929577464789,
+        "train_score": 0.9290540540540541,
+        "overfitting": 0.013561096307575182
+      }
+    },
+    "cross_validation": {
+      "knn_k3": {
+        "cv_mean": 0.9157011404934577,
+        "cv_std": 0.028164831320946708
+      },
+      "knn_k5": {
+        "cv_mean": 0.9203531647549312,
+        "cv_std": 0.02158098555229077
+      },
+      "knn_k7": {
+        "cv_mean": 0.9120816061936339,
+        "cv_std": 0.023412789766066738
+      },
+      "knn_k9": {
+        "cv_mean": 0.9202826492229239,
+        "cv_std": 0.025752427567959917
+      },
+      "knn_k11": {
+        "cv_mean": 0.919418221088353,
+        "cv_std": 0.024532064902627587
+      },
+      "knn_k13": {
+        "cv_mean": 0.9137578194595255,
+        "cv_std": 0.02267061842978416
+      },
+      "knn_k15": {
+        "cv_mean": 0.914775459090953,
+        "cv_std": 0.019732145264602343
+      }
+    }
+  }
+}

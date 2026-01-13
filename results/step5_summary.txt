@@ -1,0 +1,53 @@
+
+STEP 5 VALIDATION SUMMARY
+================================================================================
+
+SELECTED MODEL FOR API IMPLEMENTATION
+--------------------------------------
+Model Type: KNeighborsClassifier
+Hyperparameter: n_neighbors = 5
+
+VALIDATION STRATEGY
+-------------------
+1. Train/Test Split (80/20)
+   - Training samples: 455
+   - Test samples: 114
+
+2. Cross-Validation (5-fold)
+   - Total samples: 569
+   - Folds: 5
+
+TEST SET PERFORMANCE
+--------------------
+Accuracy:    0.9035
+Precision:   0.9420
+Recall:      0.9028
+F1-Score:    0.9220
+Specificity: 0.9048
+
+CROSS-VALIDATION PERFORMANCE
+-----------------------------
+Accuracy:  0.8963 (+/- 0.0320)
+Precision: 0.8988 (+/- 0.0539)
+Recall:    0.9468 (+/- 0.0323)
+F1-Score:  0.9204 (+/- 0.0216)
+
+MODELS EVALUATED
+----------------
+- KNN (k=3): Test F1=0.9155, CV F1=0.9157
+- KNN (k=5): Test F1=0.9220, CV F1=0.9204
+- KNN (k=7): Test F1=0.8966, CV F1=0.9121
+- KNN (k=9): Test F1=0.9155, CV F1=0.9203
+- KNN (k=11): Test F1=0.9296, CV F1=0.9194
+- KNN (k=13): Test F1=0.9231, CV F1=0.9138
+- KNN (k=15): Test F1=0.9155, CV F1=0.9148
+
+OUTPUT FILES
+------------
+- Train/Test Results: results/train_test_validation_results.json
+- Cross-Validation Results: results/cross_validation_results.json
+- Model Selection Summary: results/model_selection_summary.json
+- Best Model (pickle): results/best_model.pkl
+- Summary Report: results/step5_summary.txt
+
+================================================================================
