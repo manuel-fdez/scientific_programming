@@ -1,0 +1,22 @@
+[
+  "mean_radius",
+  "mean_texture",
+  "mean_smoothness",
+  "mean_compactness",
+  "mean_concavity",
+  "mean_symmetry",
+  "mean_fractal_dimension",
+  "radius_error",
+  "texture_error",
+  "smoothness_error",
+  "compactness_error",
+  "concavity_error",
+  "concave_points_error",
+  "symmetry_error",
+  "fractal_dimension_error",
+  "worst_smoothness",
+  "worst_compactness",
+  "worst_concavity",
+  "worst_symmetry",
+  "worst_fractal_dimension"
+]
